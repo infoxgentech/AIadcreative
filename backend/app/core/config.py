@@ -4,8 +4,9 @@ import os
 
 class Settings(BaseSettings):
     # API Configuration
-    anthropic_api_key: str
+    anthropic_api_key: str = ""
     openai_api_key: str = ""
+    google_api_key: str = ""
     
     # Database Configuration
     database_url: str
